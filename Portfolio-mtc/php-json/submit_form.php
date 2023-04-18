@@ -1,10 +1,6 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$servername = "139.255.11.84";
-$user = "student";
-$pass = "isbmantap"; 
-$dbname = "webdev_mtc";
 
 $conn = new mysqli($servername, $user, $pass, $dbname);
 
